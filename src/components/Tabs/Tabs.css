@@ -1,0 +1,8 @@
+.Tabs {
+    display: flex;
+    border-bottom: 1px solid var(--border-dark);
+}
+
+.Tabs .TabItem:not(:first-child) {
+    margin-left: 40px;
+}
