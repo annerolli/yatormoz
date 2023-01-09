@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import './IconButton.css';
 
 /**
- * mode: "primary(yellow)" | "secondary(dark)"
+ * mode: "primary" | "secondary"
  * size: "s" | "m" | "l"
  */
 export function IconButton({ mode = 'primary', size = 's', className, ...props }) {
