@@ -1,0 +1,39 @@
+.IconButton {
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    margin-left: 6px;
+    margin-right: 6px;
+    border-radius: 50%;
+    color: rgb(255 255 255 / 0.64);
+    background-color: rgb(24 24 24 / 0.6);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .1s ease-in;
+}
+
+.IconButton:hover {
+    transform: scale(1.2);
+}
+
+.IconButton--m-secondary:hover {
+    color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, 1);
+}
+
+.IconButton--m-secondary:active {
+    transform: translateY(.5px);
+}
+
+.IconButton--l-main {
+    color: var(--link-dark);
+}
+
+.IconButton--m-primary {
+    background-color: #fc0;
+    width: 50px;
+    height: 50px;
+}
