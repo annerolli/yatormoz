@@ -1,0 +1,23 @@
+.content__playlists-header {
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+}
+
+.content__playlists-header:hover .content__playlists-link-icon {
+    transform: translateX(8px);
+}
+
+.content__playlists-header:hover  .title__hover,
+.content__playlists-header:hover > .content__playlists-link {
+    color: var(--link-dark-primary);
+}
+
+.content__playlists-header + .content__playlists {
+    padding-top: 20px;
+}
+
+
+.content__playlists-promotions {
+    display: flex;
+}

@@ -1,0 +1,21 @@
+.content__playlists-title {
+    flex-grow: 1;
+}
+
+.content__playlists-link {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    color: var(--link-dark);
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.content__playlists-link-text {
+    padding-bottom: 6px;
+}
+
+.content__playlists-link-icon {
+    transition: transform 0.5s;
+}
