@@ -1,0 +1,28 @@
+
+/* Content */
+
+.Layout__Container {
+  display: flex;
+}
+
+/* Main */
+
+.Layout__Main {
+  border-right: 1px solid var(--border-dark);
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+/* Sidebar */
+
+.Layout__Aside {
+  flex-shrink: 0;
+  width: 490px;
+}
+
+/* Footer */
+
+.Layout__Footer {
+  width: calc(100% - 490px);
+  border-right: 1px solid var(--border-dark);
+}
